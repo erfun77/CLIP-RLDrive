@@ -13,28 +13,15 @@ CLIP-RLDrive is a reinforcement learning (RL)-based framework designed to improv
 - We incorporate **CLIP** to **automatically generate reward signals** based on visual and textual inputs.  
 - The framework trains AVs using **PPO and DQN** in a simulated unsignalized intersection environment.  
 
-## Results  
-| Algorithm   | Success Rate | Collision Rate | Timeout Rate |  
-|------------|-------------|---------------|--------------|  
-| **CLIP-DQN** | **96%** | **4%** | **-** |  
-| **CLIP-PPO** | **38%** | **-** | **54%** |  
 
-### Key Findings  
-- **CLIP-DQN significantly outperforms CLIP-PPO**, achieving a **96% success rate** with only a **4% collision rate**.  
-- The results demonstrate that **CLIP-based reward shaping enhances RL training efficiency**, leading to safer and more human-like AV behavior.  
+#### Citation
 
-## Installation & Usage  
-### Prerequisites  
-Ensure you have the following dependencies installed:  
-```bash
-pip install torch torchvision transformers stable-baselines3 highway-env
+Our paper has been pre-printed! If you find our work helpful, please consider citing us using the following reference:
 
-
-
-## Citation
-@article{doroudian2024cliprldrive,
-  title={CLIP-RLDrive: Integrating Contrastive Language-Image Pretraining for Autonomous Vehicle Decision-Making at Unsignalized Intersections},
-  author={Doroudian, Erfan and others},
-  journal={IEEE ITSC 2024},
+```bibtex
+@article{doroudian2024clip,
+  title={CLIP-RLDrive: Human-Aligned Autonomous Driving via CLIP-Based Reward Shaping in Reinforcement Learning},
+  author={Doroudian, Erfan and Taghavifar, Hamid},
+  journal={arXiv preprint arXiv:2412.16201},
   year={2024}
 }
