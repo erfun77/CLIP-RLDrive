@@ -31,6 +31,7 @@ pip install torch torchvision transformers stable-baselines3 highway-env
 
 
 
+## Citation
 @article{doroudian2024cliprldrive,
   title={CLIP-RLDrive: Integrating Contrastive Language-Image Pretraining for Autonomous Vehicle Decision-Making at Unsignalized Intersections},
   author={Doroudian, Erfan and others},
