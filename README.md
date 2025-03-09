@@ -28,3 +28,12 @@ CLIP-RLDrive is a reinforcement learning (RL)-based framework designed to improv
 Ensure you have the following dependencies installed:  
 ```bash
 pip install torch torchvision transformers stable-baselines3 highway-env
+
+
+
+@article{doroudian2024cliprldrive,
+  title={CLIP-RLDrive: Integrating Contrastive Language-Image Pretraining for Autonomous Vehicle Decision-Making at Unsignalized Intersections},
+  author={Doroudian, Erfan and others},
+  journal={IEEE ITSC 2024},
+  year={2024}
+}
